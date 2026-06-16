@@ -1,46 +1,43 @@
+body {
+
+}
+
 .theme-dark {
   --background-primary: #181510;
   --background-secondary: #1f1d1a;
+  --background-secondary-alt: #1f1f1f;
+  --background-modifier-form-field: #1f1f1f;
+
+  --text-normal: #dfdacf;
+  --text-muted: #bfbaaf;
+  --text-accent: #ffaf00;
+
+/*不稳定的类*/
+
+  	.cm-hmd-codeblock {
+		color: #dfdfdf;
+	}
 }
 
 .theme-light {
-  --background-primary: #181510;
-  --background-secondary: #1f1d1a;
+  --background-primary: #efedea;
+  --background-secondary: #dfddda;
+  --background-secondary-alt: #dfddda;
+  --background-modifier-form-field: #dfddda;
+
+  --text-normal: #1f1d1a;
+  --text-muted: #2f2d2a;
+  --text-accent: #7f4f00;
+
+/*不稳定的类*/
+
+	.cm-hmd-codeblock {
+		color: #1f001f;
+	}
 }
 
-.cm-header,
-.inline-title {
-	color: #efdfbf;
-}
-
-.nav-folder-title-content, .nav-file-title-content {
-	color: #cfbf9f;
-}
-
-.tree-item .is-active {
-	border-left: 4px solid #ffaf00;
-	background-color: #ffaf001f !important;
-	border-radius: 32px;
-}
-
-.tree-item-self {
-	border-radius: 32px;
-}
-
-.cm-line,
-.clickable-icon,
-.workspace-tab-header-inner-icon,
-input,
-.search-result-file-title {
-	color: #cfbf9f;
-}
+/*不稳定的类*/
 
 .cm-inline-code {
-	color: #ffaf00 !important;
-	background-color: #1f1d1a !important;
-}
-
-.HyperMD-codeblock {
-	background-color: #1f1d1a !important;
-	color: #cfcfcf;
+	color: var(--text-accent) !important;
 }
