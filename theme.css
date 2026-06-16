@@ -8,15 +8,15 @@ body {
   --background-secondary-alt: #1f1f1f;
   --background-modifier-form-field: #1f1f1f;
 
-  --text-normal: #dfdacf;
-  --text-muted: #bfbaaf;
+  --text-normal: #dfcfaf;
+  --text-muted: #bfaf9f;
   --text-accent: #ffaf00;
 
 /*不稳定的类*/
 
-  	.cm-hmd-codeblock {
+  .cm-hmd-codeblock {
 		color: #dfdfdf;
-	}
+  }
 }
 
 .theme-light {
