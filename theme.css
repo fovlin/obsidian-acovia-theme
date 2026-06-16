@@ -1,0 +1,46 @@
+.theme-dark {
+  --background-primary: #181510;
+  --background-secondary: #1f1d1a;
+}
+
+.theme-light {
+  --background-primary: #181510;
+  --background-secondary: #1f1d1a;
+}
+
+.cm-header,
+.inline-title {
+	color: #efdfbf;
+}
+
+.nav-folder-title-content, .nav-file-title-content {
+	color: #cfbf9f;
+}
+
+.tree-item .is-active {
+	border-left: 4px solid #ffaf00;
+	background-color: #ffaf001f !important;
+	border-radius: 32px;
+}
+
+.tree-item-self {
+	border-radius: 32px;
+}
+
+.cm-line,
+.clickable-icon,
+.workspace-tab-header-inner-icon,
+input,
+.search-result-file-title {
+	color: #cfbf9f;
+}
+
+.cm-inline-code {
+	color: #ffaf00 !important;
+	background-color: #1f1d1a !important;
+}
+
+.HyperMD-codeblock {
+	background-color: #1f1d1a !important;
+	color: #cfcfcf;
+}
