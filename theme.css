@@ -39,5 +39,6 @@ body {
 /*不稳定的类*/
 
 .cm-inline-code {
+  background-color: #af7f3f1f !important;
 	color: var(--text-accent) !important;
 }
