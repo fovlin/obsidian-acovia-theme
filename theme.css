@@ -13,10 +13,7 @@ body {
   --text-accent: #ffaf00;
 
 /*不稳定的类*/
-
-  .cm-hmd-codeblock {
-		color: #dfdfdf;
-  }
+  --code-color: #dfdfdf;
 }
 
 .theme-light {
@@ -31,12 +28,14 @@ body {
 
 /*不稳定的类*/
 
-	.cm-hmd-codeblock {
-		color: #1f001f;
-	}
+  --code-color: #1f001f;
 }
 
 /*不稳定的类*/
+
+.cm-hmd-codeblock {
+  color: var(--code-color);
+}
 
 .cm-inline-code {
   background-color: #af7f3f1f !important;
