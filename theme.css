@@ -36,8 +36,3 @@ body {
 .cm-hmd-codeblock {
   color: var(--code-color);
 }
-
-.cm-inline-code {
-  background-color: #af7f3f1f !important;
-  color: var(--text-accent) !important;
-}
