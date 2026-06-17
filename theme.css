@@ -8,14 +8,14 @@ body {
   --accent-l: 20%;
   --background-primary: #181510;
   --background-secondary: #1f1d1a;
-  --background-secondary-alt: #1f1f1f;
+  --background-secondary-alt: #2f2d2a;
   --background-modifier-form-field: #1f1f1f;
+  --code-background: #2f2d2a;
 
   --text-normal: #dfcfaf;
   --text-muted: #bfaf9f;
   --text-accent: #ffaf00;
 
-/*不稳定的类*/
   --code-color: #dfdfdf;
 }
 
@@ -23,27 +23,30 @@ body {
   --accent-h: 37;
   --accent-s: 100%;
   --accent-l: 15%;
-  --background-primary: #efedea;
-  --background-secondary: #dfddda;
-  --background-secondary-alt: #dfddda;
-  --background-modifier-form-field: #dfddda;
+  --background-primary: #efeadf;
+  --background-secondary: #dfdacf;
+  --background-secondary-alt: #fffaef;
+  --background-modifier-form-field: #dfdacf;
+  --code-background: #fffdfa;
 
   --text-normal: #1f1d1a;
   --text-muted: #2f2d2a;
   --text-accent: #7f4f00;
 
-/*不稳定的类*/
-
   --code-color: #1f001f;
 }
 
-/*不稳定的类*/
+/* 不稳定的类 */
 
-.cm-hmd-codeblock {
-  color: var(--code-color);
+pre code,         /* 阅读状态下的代码块 */
+.cm-hmd-codeblock /* 编辑状态下的代码块 */
+{
+  color: var(--code-color) !important;
 }
 
-.cm-inline-code {
+.cm-inline-code,  /* 编辑状态下的行内代码块 */
+p code            /* 阅读状态下行内代码块 */
+{
   background-color: #af7f3f1f !important;
   color: var(--text-accent) !important;
 }
