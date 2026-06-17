@@ -3,6 +3,7 @@ body {
 }
 
 .theme-dark {
+  --accent-h: #ffaf00;
   --background-primary: #181510;
   --background-secondary: #1f1d1a;
   --background-secondary-alt: #1f1f1f;
@@ -10,13 +11,14 @@ body {
 
   --text-normal: #dfcfaf;
   --text-muted: #bfaf9f;
-  --text-accent: #ffaf00;
+  --text-accent: var(--accent-h);
 
 /*不稳定的类*/
   --code-color: #dfdfdf;
 }
 
 .theme-light {
+  --accent-h: #7f4f00;
   --background-primary: #efedea;
   --background-secondary: #dfddda;
   --background-secondary-alt: #dfddda;
@@ -24,7 +26,7 @@ body {
 
   --text-normal: #1f1d1a;
   --text-muted: #2f2d2a;
-  --text-accent: #7f4f00;
+  --text-accent: var(--accent-h);
 
 /*不稳定的类*/
 
