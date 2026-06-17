@@ -3,7 +3,9 @@ body {
 }
 
 .theme-dark {
-  --accent-h: #ffaf00;
+  --accent-h: 41;
+  --accent-s: 100%;
+  --accent-l: 50%;
   --background-primary: #181510;
   --background-secondary: #1f1d1a;
   --background-secondary-alt: #1f1f1f;
@@ -18,7 +20,9 @@ body {
 }
 
 .theme-light {
-  --accent-h: #7f4f00;
+  --accent-h: 37;
+  --accent-s: 100%;
+  --accent-l: 25%;
   --background-primary: #efedea;
   --background-secondary: #dfddda;
   --background-secondary-alt: #dfddda;
