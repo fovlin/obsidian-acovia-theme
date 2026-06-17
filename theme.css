@@ -13,7 +13,7 @@ body {
 
   --text-normal: #dfcfaf;
   --text-muted: #bfaf9f;
-  --text-accent: var(--accent-h);
+  --text-accent: #ffaf00;
 
 /*不稳定的类*/
   --code-color: #dfdfdf;
@@ -30,7 +30,7 @@ body {
 
   --text-normal: #1f1d1a;
   --text-muted: #2f2d2a;
-  --text-accent: var(--accent-h);
+  --text-accent: #7f4f00;
 
 /*不稳定的类*/
 
