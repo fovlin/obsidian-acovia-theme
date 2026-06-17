@@ -4,11 +4,11 @@ A warm-toned theme, gentle on the eyes — especially in dark mode.
 
 ## Dark Example
 
-![](exp-dark.png)
+![](./exp-dark.png)
 
 # Light Example
 
-![](exp-light.png)
+![](./exp-light.png)
 
 ## Installation
 
