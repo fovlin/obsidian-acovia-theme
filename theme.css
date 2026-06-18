@@ -50,3 +50,7 @@ p code            /* 阅读状态下行内代码块 */
   background-color: #af7f3f1f !important;
   color: var(--text-accent) !important;
 }
+
+p {
+  padding-bottom: 12px !important;
+}
