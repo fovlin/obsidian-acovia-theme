@@ -6,7 +6,7 @@ A warm-toned theme, gentle on the eyes — especially in dark mode.
 
 ![Acocia-dark](./exp-dark.png)
 
-# Light Example
+## Light Example
 
 ![Acovia-light](./exp-light.png)
 
