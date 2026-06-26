@@ -6,11 +6,11 @@ body {
   --accent-h: 30;
   --accent-s: 100%;
   --accent-l: 25%;
-  --background-primary: #1f1710;
-  --background-secondary: #2f2720;
-  --background-secondary-alt: #3f3730;
+  --background-primary: #1f1c1a;
+  --background-secondary: #2f2c2a;
+  --background-secondary-alt: #3f3c3a;
   --background-modifier-form-field: #1f1f1f;
-  --code-background: #2f2720;
+  --code-background: #2f2c2a;
 
   --text-normal: #dfcabf;
   --text-muted: #bfaa9f;
@@ -23,11 +23,11 @@ body {
   --accent-h: 30;
   --accent-s: 100%;
   --accent-l: 15%;
-  --background-primary: #efe7e0;
-  --background-secondary: #dfd7d0;
-  --background-secondary-alt: #fff7f0;
+  --background-primary: #efecea;
+  --background-secondary: #dfdcda;
+  --background-secondary-alt: #fffcfa;
   --background-modifier-form-field: #dfd7d0;
-  --code-background: #fff7f0;
+  --code-background: #fffcfa;
 
   --text-normal: #1f1710;
   --text-muted: #2f2720;
