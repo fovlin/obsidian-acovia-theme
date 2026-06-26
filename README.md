@@ -26,7 +26,7 @@ cd /path/to/your/vault/.obsidian/themes
 ```
 
 ```bash
-git clone https://github.com/fovlin/acovia-absidian-theme.git
+git clone https://github.com/fovlin/acovia-obsidian-theme.git
 ```
 
 Then **Enable** to apply the theme.
