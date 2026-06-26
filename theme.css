@@ -5,16 +5,16 @@ body {
 .theme-dark {
   --accent-h: 41;
   --accent-s: 100%;
-  --accent-l: 25%;
+  --accent-l: 30%;
   --background-primary: #181510;
   --background-secondary: #282520;
   --background-secondary-alt: #383530;
   --background-modifier-form-field: #1f1f1f;
-  --code-background: #2f2c2a;
+  --code-background: #2f2d2a;
 
   --text-normal: #efe3d0;
   --text-muted: #bfb3a0;
-  --text-accent: #ff9f00;
+  --text-accent: #ffaf00;
 
   --code-color: #dfdfdf;
 }
@@ -22,7 +22,7 @@ body {
 .theme-light {
   --accent-h: 41;
   --accent-s: 100%;
-  --accent-l: 15%;
+  --accent-l: 30%;
   --background-primary: #e8e5e0;
   --background-secondary: #d8d5d0;
   --background-secondary-alt: #f8f5f0;
@@ -47,7 +47,7 @@ pre code,         /* 阅读状态下的代码块 */
 .cm-inline-code,  /* 编辑状态下的行内代码块 */
 p code            /* 阅读状态下行内代码块 */
 {
-  background-color: #ff9f001f !important;
+  background-color: #ffaf001f !important;
   color: var(--text-accent) !important;
 }
 
