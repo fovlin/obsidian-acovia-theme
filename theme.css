@@ -6,14 +6,14 @@ body {
   --accent-h: 30;
   --accent-s: 100%;
   --accent-l: 25%;
-  --background-primary: #1f1c1a;
-  --background-secondary: #2f2c2a;
-  --background-secondary-alt: #3f3c3a;
+  --background-primary: #1a1510;
+  --background-secondary: #2a2520;
+  --background-secondary-alt: #3a3530;
   --background-modifier-form-field: #1f1f1f;
   --code-background: #2f2c2a;
 
-  --text-normal: #dfcabf;
-  --text-muted: #bfaa9f;
+  --text-normal: #dfd7d0;
+  --text-muted: #bfb7b0;
   --text-accent: #ff7f00;
 
   --code-color: #dfdfdf;
