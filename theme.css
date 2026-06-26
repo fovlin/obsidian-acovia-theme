@@ -3,35 +3,35 @@ body {
 }
 
 .theme-dark {
-  --accent-h: 41;
+  --accent-h: 30;
   --accent-s: 100%;
-  --accent-l: 20%;
-  --background-primary: #181510;
-  --background-secondary: #1f1d1a;
-  --background-secondary-alt: #2f2d2a;
+  --accent-l: 25%;
+  --background-primary: #1f1710;
+  --background-secondary: #2f2720;
+  --background-secondary-alt: #3f3730;
   --background-modifier-form-field: #1f1f1f;
-  --code-background: #2f2d2a;
+  --code-background: #2f2720;
 
-  --text-normal: #dfcfaf;
-  --text-muted: #bfaf9f;
-  --text-accent: #ffaf00;
+  --text-normal: #dfcabf;
+  --text-muted: #bfaa9f;
+  --text-accent: #ff7f00;
 
   --code-color: #dfdfdf;
 }
 
 .theme-light {
-  --accent-h: 37;
+  --accent-h: 30;
   --accent-s: 100%;
   --accent-l: 15%;
-  --background-primary: #efeadf;
-  --background-secondary: #dfdacf;
-  --background-secondary-alt: #fffaef;
-  --background-modifier-form-field: #dfdacf;
-  --code-background: #fffdfa;
+  --background-primary: #efe7e0;
+  --background-secondary: #dfd7d0;
+  --background-secondary-alt: #fff7f0;
+  --background-modifier-form-field: #dfd7d0;
+  --code-background: #fff7f0;
 
-  --text-normal: #1f1d1a;
-  --text-muted: #2f2d2a;
-  --text-accent: #7f4f00;
+  --text-normal: #1f1710;
+  --text-muted: #2f2720;
+  --text-accent: #7f3f00;
 
   --code-color: #1f001f;
 }
@@ -47,7 +47,7 @@ pre code,         /* 阅读状态下的代码块 */
 .cm-inline-code,  /* 编辑状态下的行内代码块 */
 p code            /* 阅读状态下行内代码块 */
 {
-  background-color: #af7f3f1f !important;
+  background-color: #ff7f001f !important;
   color: var(--text-accent) !important;
 }
 
